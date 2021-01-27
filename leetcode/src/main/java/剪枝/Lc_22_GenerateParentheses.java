@@ -1,4 +1,4 @@
-package pruning;
+package 剪枝;
 
 import java.util.ArrayList;
 import java.util.List;

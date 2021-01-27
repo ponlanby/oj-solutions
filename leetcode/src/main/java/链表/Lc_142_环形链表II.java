@@ -1,4 +1,4 @@
-package linkedlist;
+package 链表;
 
 import base.ListNode;
 
@@ -6,7 +6,7 @@ import base.ListNode;
  * @author tongruochen
  * @since 2020/3/12
  */
-public class Lc_142_LinkedListCycleII {
+public class Lc_142_环形链表II {
 
     public static ListNode detectCycle(ListNode head) {
         if (head == null || head.next == null) {

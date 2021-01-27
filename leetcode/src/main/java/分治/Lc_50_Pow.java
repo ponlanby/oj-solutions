@@ -1,4 +1,4 @@
-package divideandconquer;
+package 分治;
 
 /**
  * @author tongruochen

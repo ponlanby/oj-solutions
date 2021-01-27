@@ -1,4 +1,4 @@
-package pruning;
+package 剪枝;
 
 public class Lc_36_ValidSudoku {
 
