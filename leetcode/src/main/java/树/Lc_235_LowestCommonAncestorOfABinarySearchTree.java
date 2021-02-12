@@ -1,6 +1,4 @@
-package tree;
-
-import base.TreeNode;
+package 树;
 
 /**
  * @author tongruochen

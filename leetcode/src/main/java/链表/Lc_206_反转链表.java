@@ -6,7 +6,7 @@ import base.ListNode;
  * @author tongruochen
  * @since 2020/3/12
  */
-public class Lc_206_ReverseLinkedList {
+public class Lc_206_反转链表 {
 
     public ListNode buildLinkedList(int[] array) {
         ListNode head, p;
