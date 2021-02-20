@@ -1,4 +1,4 @@
-package heap;
+package 堆;
 
 import java.util.PriorityQueue;
 
@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
  * @author tongruochen
  * @since 2020/3/14
  */
-public class Lc_703_KthLargestElementInAStream {
+public class Lc_703_数据流中的第K大元素 {
 
     public static class KthLargest {
         PriorityQueue<Integer> queue;

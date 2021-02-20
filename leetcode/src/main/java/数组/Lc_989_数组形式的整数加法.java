@@ -7,7 +7,7 @@ import java.util.List;
  * @author: created by ponlanby
  * @date:2021/1/23
  */
-public class Lc989_数组形式的整数加法 {
+public class Lc_989_数组形式的整数加法 {
 
     public List<Integer> addToArrayForm(int[] A, int K) {
         int len = A.length;

@@ -10,6 +10,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>leetcode</module>
+        <module>练习</module>
     </modules>
 
 

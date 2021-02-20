@@ -1,4 +1,6 @@
-import base.ListNode;
+package main.java;
+
+import main.java.base.ListNode;
 
 /**
  * @author: created by ponlanby
