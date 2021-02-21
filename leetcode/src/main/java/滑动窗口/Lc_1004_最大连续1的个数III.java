@@ -8,16 +8,21 @@ public class Lc_1004_最大连续1的个数III {
 
     public int longestOnes(int[] A, int K) {
         int n = A.length;
-        int left = 0, lsum = 0, rsum = 0;
-        int ans = 0;
-        for (int right = 0; right < n; right++) {
-            rsum = rsum + 1 - A[right];
-            while (lsum < rsum - K) {
-                lsum = lsum + 1 - A[left];
-                left++;
+        int res = 0;
+        int left = 0, right = 0;
+        int zeros = 0;
+        while (right < n) {
+            if (A[right] == 0) {
+                zeros++;
             }
-            ans = Math.max(ans, right - left + 1);
+            while (zeros > K) {
+                if (A[left++]  == 0) {
+                    zeros--;
+                }
+            }
+            res = Math.max(res, right - left + 1);
+            right++;
         }
-        return ans;
+        return res;
     }
 }
